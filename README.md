@@ -12,6 +12,7 @@ The script can be used to create and write 1 tidy dataset based on data spread o
 In the tidy dataset the data is summarized in order to give an overview of the average values of each individual mean and std variable on the level of Subject - Activity.
 
 The script executes the following steps:
+
 1. Load relevant packages into R
 2. Load data into R
 3. Merge the test and training data set
@@ -21,7 +22,6 @@ The script executes the following steps:
 7. Calculate the average of each variable on level Subject - Activity
 8. Write the tidy data set result back to the working directory (file name = `output_tidy_dataset.txt`) 
 
-
 Running the script
 ------------------
 
@@ -29,9 +29,12 @@ Running the script
 
 Before running the script move the following content of the UCI HAR Dataset to your working directory:
 	Folders:
+
 	* train
 	* test
+
 	Files:
+
 	* activity_labels
 	* features
 
